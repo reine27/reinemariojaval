@@ -11,3 +11,10 @@
         document.body.classList.toggle("light-mode");
     })
 })();
+
+document.getElementById("download-btn").addEventListener("click", function() {
+    var link = document.createElement("a");
+    link.href = "files/RESUME(reine).pdf";
+    link.download = "RESUME(reine).pdf"; 
+    link.click();
+  });
