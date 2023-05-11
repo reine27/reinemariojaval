@@ -50,6 +50,18 @@ a {
   font-family: inherit;
 }
 
+
+
+.contact-info table {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.contact-info td {
+  padding: 5px;
+}
+
+
 header {
   min-height: 100vh;
   color: var(--color-white);
